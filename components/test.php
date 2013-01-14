@@ -1,0 +1,1 @@
+raimu <?php echo $attrs['a'] ?>

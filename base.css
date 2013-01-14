@@ -1,0 +1,88 @@
+// HACK
+
+header {
+	margin-bottom: 20px;
+}
+
+.btn-group {
+	display: inline-block;
+}
+
+// END HACK
+
+.bsc-descriptions {
+	margin-bottom: 20px;
+	.bsc-descriptions-item{
+		margin-bottom: 4px;
+		margin-top: 0px;
+		
+		.label, {
+			padding: 4px 14px;
+			margin-top: 4px;
+			line-height: 28px;
+		}
+		
+		.content {
+			padding: 4px 0px;
+			margin-top: 4px;
+			line-height: 28px;
+		}
+	}
+}
+
+.bsc-block {
+	
+	.bsc-block-header {
+		.navbar-inner {
+			border-width: 0px;
+			background-image: none;
+			
+			.brand {
+				color: #626464 !important;
+				font-weight: initial !important;
+			}
+		}
+		
+	}
+	
+	.bsc-block-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.bsc-block-no-header {
+	padding-top: 20px;
+}
+
+.bsc-block-dashed {
+	border: 1px dashed silver;
+}
+
+.bsc-block-dotted {
+	border: 1px dotted silver;
+}
+
+.bsc-block-solid {
+	border: 1px solid silver;
+}
+
+.bsc-block-fit {
+	.bsc-block-header {
+		.navbar {
+			margin-bottom: 0px;
+		}
+	}
+	
+	.bsc-block-content {
+		padding: 0px;
+		
+		*:first-child {
+			margin-top: 0px;
+		}
+		
+		*:last-child {
+			margin-bottom: 0px;
+		}
+	}
+}
